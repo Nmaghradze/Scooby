@@ -1,0 +1,221 @@
+img#logo {
+width: 250px;
+margin-left: 25px;
+margin-top: 15px;
+
+}
+
+body {background-color:#f5dcf1}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color:#e20c82;
+  font-weight: bolder;
+  margin-left: 75px;
+  margin-top: 50px;
+  font-size: xx-large;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+ 
+}
+
+
+.card {
+  width: 400px;
+  height: 440px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+ font-family: "BPG Irubaqidze", monospace, sans-serif;
+  position: relative;
+   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+   overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+
+
+ 
+}
+
+
+.didi {
+  display: flex;
+  gap: 15px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: gold;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.fav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.content {
+  padding: 10px 15px;
+}
+
+.content h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #ece118; 
+}
+
+.content h3 span {
+  color:  #e20c82;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.price .old {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.price .new {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.footer {
+  background: #f9f9f9;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer .count {
+  background: #00aaff;
+  color: white;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+
+.hidden {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 15px;
+  transition: bottom 0.4s ease;
+  font-size: 14px;
+  color: #444;
+}
+
+
+.card:hover .hidden {
+  bottom: 0;
+}
+
+
+.card:hover .info {
+  transform: translateY(-30px);
+}
+
+
+
+
+
+footer {
+  background-color:  #ce398b;; 
+  color: #333; 
+  text-align: center;
+ height: 100px;
+  
+  border-top: 4px solid #ed9cc9;  }
+
+footer .footer-content p {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  padding-top: 28px;
+}
+
+footer .footer-content small {
+  color: #555;
+  font-size: 0.9rem;
+  
+}
+
+h4 {
+font-family:"BPG Irubaqidze", monospace, sans-serif;
+}
+
+
+
+
+
+
+
+
+
