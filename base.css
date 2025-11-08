@@ -1,5 +1,5 @@
 img#logo {
-width: 250px;
+width: 300px;
 margin-left: 25px;
 
 }
@@ -12,7 +12,8 @@ body {
   background: radial-gradient(circle at 20% 20%, #ff66c4, transparent 40%),
               radial-gradient(circle at 80% 30%, #00c6ff, transparent 40%),
               radial-gradient(circle at 40% 80%, #ffd36b, transparent 40%),
-              #fff3e6; 
+              radial-gradient(circle at 40% 80%, rgb(224, 11, 224), transparent 40%),
+              #ffffff; 
   background-size: 200% 200%;
   animation: floatColors 10s ease-in-out infinite;
 
@@ -50,6 +51,7 @@ header a {
   margin-left: 75px;
   margin-top: 50px;
   font-size: xx-large;
+  font-family: 'K26ComicKats', sans-serif;
 }
 
 header a:hover {
@@ -85,7 +87,7 @@ header a:hover {
 
 .didi {
   display: flex;
-  gap: 15px;
+  gap: 25px;
 }
 .card:hover {
   transform: scale(1.05);
@@ -191,7 +193,7 @@ header a:hover {
 }
 
 .footer .count {
-  background: #00aaff;
+  background: #ed32e7;
   color: white;
   border-radius: 8px;
   padding: 2px 8px;
@@ -249,67 +251,24 @@ h4 {
 font-family:"BPG Irubaqidze", monospace, sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-.game-card {
-  width: 280px;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-  margin: 20px;
-  transition: transform 0.3s ease;
-  padding: 15px;
-  box-sizing: border-box;
+img#gg {
+  width: 450px; 
 }
 
-.game-card:hover {
-  transform: translateY(-5px);
-}
 
-.game-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 15px;
-  display: block;
-}
 
-.card-info {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.card-info h3 {
-  margin: 0;
-  font-size: 18px;
-  color: #2c1f63;
-  letter-spacing: 1px;
-}
-
-.token {
-  background-color: #ff00b7;
+footer {
+ background-color: #e989d9;
   color: white;
-  border-radius: 12px;
-  padding: 5px 12px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.token img {
-  width: 16px;
-  height: 16px;
-  filter: invert(1);
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 7px;
+  height: 50px;
+  font-size: 17px;
+  font-family: BPG Irubaqidze, monospace, sans-serif;
 }
 
 
@@ -329,3 +288,12 @@ font-family:"BPG Irubaqidze", monospace, sans-serif;
 
 
 
+
+
+
+
+
+
+p#ff {
+  font-size: 25px;
+}
