@@ -3,6 +3,7 @@
   body {
     flex-direction: column; 
     align-items: center;
+    max-width: 766px;
   }
 
   .container {
@@ -18,9 +19,6 @@
   h1, h2, h3 {
     text-align: center;
   }
-
-
-
 
 
 
@@ -63,7 +61,7 @@
 
   .card {
     width: 95%;
-    max-width: 440px;
+    max-width: 300px;
     height: auto;
     height: 640px;
   }
@@ -93,7 +91,7 @@
   p, h1, h2, h3 {
     text-align: center;
     margin: 10px auto;
-    font-size: 15px;
+    font-size: 10pxpx;
     font-weight: bolder;
   }
 

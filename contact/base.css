@@ -1,0 +1,273 @@
+img#logo {
+width: 300px;
+margin-left: 25px;
+
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+
+  background: radial-gradient(circle at 20% 20%, #ff6ddb, transparent 40%),
+              radial-gradient(circle at 80% 30%, #00c6ff, transparent 40%),
+              radial-gradient(circle at 40% 80%, #ffd36b, transparent 40%),
+              radial-gradient(circle at 40% 80%, rgb(224, 11, 224), transparent 40%),
+              #ffffff; 
+  background-size: 200% 200%;
+  animation: floatColors 10s ease-in-out infinite;
+
+  
+  overflow-x: hidden; 
+}
+
+@keyframes floatColors {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+
+
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color:#e20c82;
+  font-weight: bolder;
+  margin-left: 75px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-family: 'K26ComicKats', sans-serif;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    gap: 40px;
+ 
+ 
+}
+
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+    background: #222; 
+}
+
+
+.social.fb:hover {
+    background: #1877F2;
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 6px 15px rgba(24, 119, 242, 0.4);
+}
+
+
+.social.ig:hover {
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 6px 15px rgba(214, 41, 118, 0.4);
+}
+
+
+@media (min-width: 1025px) {
+    .social {
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+.contact-box {
+    display: flex;
+   flex-direction: column;
+    gap: 12px;
+    
+  
+     font-family: "BPG Irubaqidze", monospace, sans-serif;
+    align-items: center;
+}
+
+.contact-item {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.contact-item i {
+    font-size: 20px;
+    color: #ff66c4;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color:rgb(255, 255, 255);
+  font-family: 'K26ComicKats', sans-serif;
+}
+
+.social {
+  
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+   
+    justify-content: center;
+
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+    background: #222;
+    transition: 0.3s ease;
+}
+
+
+footer {
+  background-color: #e989d9 ; 
+  color: #333; 
+  text-align: center;
+ height: 100px;
+  
+  border-top: 4px solid #ed9cc9;  }
+
+footer .footer-content p {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  padding-top: 28px;
+}
+
+footer .footer-content small {
+  color: #555;
+  font-size: 0.9rem;
+  
+}
+
+
+
+footer {
+  width: 1000px;
+ background-color: #e989d9;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 7px;
+  height: 48px;
+  font-size: 17px;
+  font-family: BPG Irubaqidze, monospace, sans-serif;
+}
+
+
+
+
+.social.fb:hover {
+    background: #1877F2;
+    transform: translateY(-4px) scale(1.08);}
+    
+.social.ig:hover {
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+    transform: translateY(-4px) scale(1.08);
+}
+
+@media (min-width: 1025px) {
+    .contact-item {
+        font-size: 18px;
+    }
+
+    .contact-item i {
+        font-size: 22px;
+    }
+
+    .social {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

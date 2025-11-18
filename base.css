@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
 
-  background: radial-gradient(circle at 20% 20%, #ff66c4, transparent 40%),
+  background: radial-gradient(circle at 20% 20%, #ff6ddb, transparent 40%),
               radial-gradient(circle at 80% 30%, #00c6ff, transparent 40%),
               radial-gradient(circle at 40% 80%, #ffd36b, transparent 40%),
               radial-gradient(circle at 40% 80%, rgb(224, 11, 224), transparent 40%),
@@ -61,6 +61,7 @@ header a:hover {
 .container {
     display: flex;
     gap: 40px;
+ 
  
 }
 
@@ -297,3 +298,7 @@ footer {
 p#ff {
   font-size: 25px;
 }
+
+
+
+
