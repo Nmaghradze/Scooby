@@ -1,0 +1,105 @@
+
+.category {
+    margin-bottom: 50px;
+}
+
+.category h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 24px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 3px;
+    display: block;
+}
+img#logo {
+width: 300px;
+margin-left: 25px;
+
+}
+
+
+h2#kk{
+    font-family: "BPG Irubaqidze", monospace, sans-serif;
+  color:#e20c82;
+}
+
+
+h2#gg{
+    font-family: "BPG Irubaqidze", monospace, sans-serif;
+  color:#e20c82;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+
+  background: radial-gradient(circle at 20% 20%, #ff6ddb, transparent 40%),
+              radial-gradient(circle at 80% 30%, #00c6ff, transparent 40%),
+              radial-gradient(circle at 40% 80%, #ffd36b, transparent 40%),
+              radial-gradient(circle at 40% 80%, rgb(224, 11, 224), transparent 40%),
+              #ffffff; 
+  background-size: 200% 200%;
+  animation: floatColors 10s ease-in-out infinite;
+
+  
+  overflow-x: hidden; 
+}
+
+@keyframes floatColors {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+
+
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color:#e20c82;
+  font-weight: bolder;
+  margin-left: 75px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-family: 'K26ComicKats', sans-serif;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+ 
+ 
+}
+
+p#ff {
+   font-size: large;
+}
