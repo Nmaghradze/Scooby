@@ -34,6 +34,56 @@ h2#kk{
   color:#e20c82;
 }
 
+.social.fb:hover {
+    background: #1877F2;
+    transform: translateY(-4px) scale(1.08);}
+    
+.social.ig:hover {
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+    transform: translateY(-4px) scale(1.08);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+@media (min-width: 1025px) {
+    .contact-item {
+        font-size: 18px;
+    }
+
+    .contact-item i {
+        font-size: 22px;
+    }
+
+    .social {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+}
+
+.social {
+  
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+   
+    justify-content: center;
+
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+    background: #222;
+    transition: 0.3s ease;
+}
+
+
 
 h2#gg{
     font-family: "BPG Irubaqidze", monospace, sans-serif;
@@ -70,8 +120,16 @@ body {
 
 
 
+.mtliani {
+  display: flex;
+  gap: 15px;
+ 
+}
 
-
+h1#ll {
+       font-family: "BPG Irubaqidze", monospace, sans-serif;
+      
+}
 header ul {
   list-style: none;
   padding: 0;
@@ -102,4 +160,61 @@ header a:hover {
 
 p#ff {
    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background: #f9f9f9;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer .count {
+  background: #ed32e7;
+  color: white;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color:  #ed9cc9 ;
+  color: #333; 
+  text-align: center;
+ height: 100px;
+  
+  border-top: 4px solid #ed9cc9;  }
+
+footer .footer-content p {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  padding-top: 28px;
+}
+
+footer .footer-content small {
+  color: #555;
+  font-size: 0.9rem;
+  
+}
+
+h4 {
+font-family:"BPG Irubaqidze", monospace, sans-serif;
 }
